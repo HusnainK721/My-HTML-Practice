@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form.js</title>
+    <script>
+        function getmyname()
+        {
+            var fname=document.getElementById("firstname");
+            var mname=document.getElementById("midname");
+            var lname=document.getElementById("lastname");
+            var full=document.getElementById("fullname");
+            full.value=fname.value+" "+mname.value+" "+lname.value
+          
+             
+            }
+            function clearData(){
+                var clearme=document.getElementById("fullname");
+                var clear2=document.getElementById("firstname")
+                var clear3=document.getElementById("midname")
+                var clear4=document.getElementById("lastname")
+                clearme.value=" ";
+                clear2.value=" ";
+                clear3.value=" ";
+                clear4.value=" ";
+            }
+    </script>
+</head>
+<body>
+    <h1>Employee Details</h1>
+    <hr>
+    <label>FIRST NAME: </label><input type="text" id="firstname">
+    <br><br>
+    <label>MIDDLE NAME: </label><input type="text" id="midname">
+    <br><br>
+    <label>LAST NAME: </label><input type="text" id="lastname">
+    <button onclick="getmyname()">FULL NAME</button>
+    <button onclick="clearData()">CLEAR</button>
+    <br><br>
+    <label>FULL NAME: </label><input type="text" id="fullname">
+    
+</body>
+</html>

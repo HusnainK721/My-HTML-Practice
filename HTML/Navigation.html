@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+</head>
+<style>
+
+    nav{
+        background-color: whitesmoke;
+        padding: 20px;
+        
+    }
+    a{
+        padding: 10px;
+        color: black;
+    
+
+    }
+    
+    
+    input{
+        float: right;
+    }
+    body{
+        background-image: url(../SRC/36354\ \(1\).jpg);
+
+    
+    }
+    h1{
+        text-align: center;
+        background-color: black;
+        padding: 10px;
+        color: whitesmoke;
+        
+    }
+
+    
+</style>
+<script>
+    function savedata(){
+        var objuser=document.getElementById("user");
+        objuser.value=sessionStorage.getItem("username")
+    }
+</script>
+
+
+
+<body>
+    <h1><b>Pickupbizz</b></h1>
+
+    <nav>
+        <a href="./Fieldset.html">Registration</a>
+        <a href="../HTML/image.html">Home</a>
+        <a href="../HTML/figure.html">Products</a>
+        <a href="../HTML/aboutus.html">About Us</a>
+        <a href="../HTML/Contactus.html">Contact Us</a>
+          <input type="text" id="user">
+    </nav>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Application Form </title>
+    <script>
+      function getfullname(){
+        var name=document.getElementById ("firstname");
+        var last=document.getElementById("lastname");
+        var full=document.getElementById("fullname");
+        var mid=document.getElementById("midname")
+        full.value=name.value+ " "+mid.value+" " +last.value
+
+      }
+    </script>
+</head> 
+<body>
+    <h1>Employee Details</h1>
+    <hr>
+    <h3>Personal Info</h3>
+    <br>
+  <label> First Name:</label><input type="text" id="firstname">
+  <br> <br>
+  <label>Middle Name</label><input type="text" id="midname"> <br>
+  <br> 
+ <label> Last Name:</label><input type="text" id="lastname">
+   <button onclick="getfullname()">FULL NAME</button>
+   <br>
+   <br>
+   <br>
+  <label> Full Name:</label><input type="text" id="fullname">
+  <hr>
+
+
+    
+</body>
+</html>
