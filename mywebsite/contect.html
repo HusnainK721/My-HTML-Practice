@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script>
+        function setstorevalues(){
+            sessionStorage.setItem("usreName",document.getElementById("name").value);
+        }
+        function getstorevalues(){
+            document.getElementById("name").value=sessionStorage.getItem("userName");
+            document.getElementById("password").value=sessionStorage.getItem("usepassword");
+            document.getElementById("confpassword").value=sessionStorage.getItem("confusepassword");
+        }
+    </script>
+   
+    <title>Form </title>
+</head>
+<style>
+    legend{
+        background-color: blueviolet;
+        padding: 5px;
+    }
+    form{
+        background-color: rgba(158, 118, 184, 0.8);
+        margin: auto;
+        margin-top: 80px;
+        width: 400px;
+        padding: 20px;
+        border-radius: 20px;
+        border:  double;
+    }
+    
+
+</style>
+<body style="background-color: silver;">
+     
+    <form>
+    
+  <h1> <b> <i> Registration </i>  </b> </h1>
+  <br>
+  <label>Name</label>
+  <br>
+  <input id="name" type="text">
+  <br>
+  <label>Password</label>
+  <br>
+  <input id="password" type="password">
+  <br>
+  <label>Conform password</label>
+  <br>
+  <input id="confpassword" type="password">
+   <br>
+   <br>
+   <label> <b>Gander</b> </label>
+   <input  type="radio" name="gender" value="male"> <i>Male</i>
+   <input type="radio" name="gender" value="female"> <i>Female</i>
+   <br>
+   <br>
+   <label> <i> Hobbies  </i></label>
+   <input type="checkbox">Codding
+   <input type="checkbox">Gaming
+   <input type="checkbox">Sleeping
+    <br>
+    <br>
+    <label>Select Favorate Color</label>
+    <input type="color">
+    <br>
+    <br>
+    <label>DOB:</label>
+    <input type="number">
+    <br>
+    <br>
+    <button onclick="setstorevalues()">Submit</button>
+    <button>CANCLE</button>
+  
+    
+</body>
+<script>
+    getstorevalues()
+</script>
+</html>
