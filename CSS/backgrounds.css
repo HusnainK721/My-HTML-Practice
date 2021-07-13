@@ -1,0 +1,19 @@
+h1{
+    background-color: aqua;
+    padding: 20px;
+    margin: 50px;
+}
+body{
+    background-image: url(../SRC/pexels-karolina-grabowska-4621652.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:top;
+
+}
+.para1{
+    background-color:rgba(55, 55, 55, 55);
+    background-image: url(../SRC/logo.png);
+    background-size: cover;
+    color: white;
+    text-align: justify;
+}
