@@ -1,0 +1,12 @@
+*{
+    margin: 8px;
+}
+
+h1{
+    background-color: green;
+    color: black;
+    border: 3px dashed;
+}
+h2{
+    background: linear-gradient(red green brown)
+}
