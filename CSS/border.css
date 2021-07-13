@@ -1,0 +1,11 @@
+h1{
+    border: 3px dotted cadetblue;
+}
+.b{
+    border: 3px dashed red;
+}
+.c{
+    border: 5px double black;
+}.a{
+    border: 3px solid blue;
+}
