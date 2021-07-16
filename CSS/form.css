@@ -1,0 +1,33 @@
+body{
+    background-image: url(../SRC/pexels-felix-mittermeier-956999.jpg);
+    background-size: cover;
+}
+.logoform{
+    background-color: rgba(rgb(253, 253, 253), green, blue, 0.2);
+    width: 300px;
+    height: 400px;
+    padding: 15px;
+    margin: 150px auto;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(255, 255, 255); 
+    text-align: center;
+
+}
+img{
+    height: 150px;
+    width: 150px;
+    margin:-90px;
+    padding-bottom: 80px;
+    
+}
+input{
+    text-align: center;
+    margin: 10px;
+    border-radius: 20px;
+    outline: none;
+    width: 200px;
+    padding: 3px;
+}
+::placeholder{
+    color: red;
+}
