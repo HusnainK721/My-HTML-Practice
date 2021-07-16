@@ -13,13 +13,14 @@
         margin: 0%;
     }
     nav{
-        background-color: rgb(123, 136, 75);
-        color: rgb(255, 255, 255);
+        background-color:rgba(red, green, blue, alpha);
         padding: 30px;
+        position: sticky;
+        top: 0%;
     }
     a{
         padding: 20px;
-        color: white;
+        color: rgb(8, 8, 8);
         font-family: 'Open Sans Condensed', sans-serif;       
         text-decoration: none; 
     }
@@ -97,7 +98,7 @@ th{
         text-align: center;
     }
     a:hover{
-        background-color:white;
+        box-shadow: 0  10px;
         color: black;
         border-radius: 20px;
     }
@@ -126,10 +127,10 @@ th{
 <body>
         <nav>
             <img src="../webdesign/src/logo.png" alt="" width="40px" height="40px">
-            <a href="products"><i class="fas fa-home"></i>home</a>
-            <a href="div2"><i class="fab fa-product-hunt"></i> products</a>
-            <a href="div3"><i class="fab fa-servicestack"></i>services</a>
-            <a href=""><i class="fas fa-address-card"></i>about Us</a>
+            <a href=""><i class="fas fa-home"></i>home</a>
+            <a href="#products"><i class="fab fa-product-hunt"></i> products</a>
+            <a href="#services"><i class="fab fa-servicestack"></i>services</a>
+            <a href="#about"><i class="fas fa-address-card"></i>about Us</a>
         </nav>
         <div class="div1">
         <h1>Home</h1>
@@ -176,7 +177,7 @@ th{
 
 
     </div>
-    <div class="div3">
+    <div class="div3" id="services">
         <h1 class="head2">Services</h1>
         <marquee behavior="alternate" direction="" scrollamount="20px" > 
             <div class="div4">
@@ -205,7 +206,7 @@ th{
     </div>
         </marquee>
     </div>
-    <footer>
+    <footer id="about">
         Copyright &copy;<br>
         <b>Developed By</b><br>
          <u>Ammu Creation</u>
