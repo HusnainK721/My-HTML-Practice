@@ -1,0 +1,29 @@
+div{
+    background-color: brown;
+    width: 200px;
+    color: blanchedalmond;
+    height: 200px;
+    text-align: center;
+}
+.para1{
+    position: static;
+    
+}
+.para2{
+    position: relative;
+    left: 500px;
+}
+.para3{
+    position: absolute;
+    margin: 50px;
+}
+.para4{
+    position: fixed;
+    right: 10%;
+    bottom: 200px;
+}
+.para5{
+    position: sticky;
+    top: 0%;
+    
+}
