@@ -1,0 +1,23 @@
+body{
+    background-image: url(../SRC/ali-tarhini-slashio-ARfBt51WG2s-unsplash.jpg);
+    background-size: cover;
+}
+.login{
+    background-color:  rgba(255, 255, 255, 0.2);
+    width: 350px;
+    height: 500px;
+    padding: 10px;
+    margin: 100px auto;
+    border-radius: 20px;
+    box-shadow: 0 0 10 black;
+    text-align: center;
+}
+img{
+    width: 200px;
+    height: 200px;
+    padding: 40px;
+    margin-top: -90px;
+}
+.text{
+    padding: 20px;
+}
