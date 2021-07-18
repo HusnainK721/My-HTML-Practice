@@ -1,0 +1,58 @@
+h1{
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+}
+h2,h3,h4,h5{
+    display: none;
+}
+img{
+    width: 100%;
+}
+/* ---------------mobile screen--------------- */
+@media (max-width:500px){
+body{
+background:linear-gradient(45deg, green, red, blue);
+
+}
+h2{display: block;
+
+}}
+/* -------------Tablet Screen-------------------- */
+@media (min-width:501px) and (max-width:800px){
+    body{
+        background:linear-gradient(60deg, yellow,lightblue,red) ;
+    }
+    h3{
+        display: block;
+    }
+}
+/* --------------Laptop Screen--------------- */
+@media(min-width:801px) and (max-width:1200px){
+    body{
+        background: linear-gradient(60deg, pink,gold, purple);
+    }
+    h4{
+        display: block;
+        font-size: large;
+    }
+}
+/* -----------------X-Large------------------ */
+@media(min-width:1201px) and (max-width:1800px){
+    body{
+        background-image: url(../SRC/ali-tarhini-slashio-ARfBt51WG2s-unsplash.jpg);
+        background-size: cover;
+    }
+    h5{
+        display: block;
+        font-size: large;
+        background-color: darkgray;
+        width: 200px;
+        text-align: center;
+        padding: 10px;
+    }
+}
+p{
+color: white;
+}
